@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poor Story', cursive;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(11, 84, 168);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.clock{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+#header #search{
+    margin-left: 15%;
+    padding-left: 10px;
+    width: 400px;
+    outline: none;
+}
+#nav{
+    background-color: rgb(235, 244, 255);
+    width: 300px;
+    height: 100vh;
+    margin: 0px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+}
+#nav .group1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#nav #sunny{
+    width: 20px;
+    height: 20px;
+}
+#nav #menu1{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+#nav .group2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#nav #star{
+    width: 20px;
+    height: 20px;
+}
+#nav #menu2{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+#nav .group3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#nav #bin{
+    width: 20px;
+    height: 20px;
+}
+#nav #menu3{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: -5px;
+}
+
+#main{
+    position: relative;
+    left: 350px;
+    bottom: 750px;
+    display: flex;
+    flex-direction: column;
+}
+#main>h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#main #date{
+    font-weight: lighter;
+    margin-top: 20px;
+}
+#main .input{
+    display: flex;
+    flex-direction: row;
+}
+#main #text{
+    font-family: 'Poor Story', cursive;
+    font-weight: lighter;
+    width: 700px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(172, 172, 172); 
+    padding-bottom: 0;
+
+}
+#main #ckbtn{
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(55, 130, 201);
+    color: #fff;
+    border: none;
+}
+#main .add{
+    display: flex;
+    flex-direction: row;
+}
+#main #items{
+    /* border-bottom: 1px solid grey; */
+    width: 700px;
+    display: none;
+}
+.add #ckbtn2{
+    display: none;
+}
+.done{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.done #finish{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.done #righta{
+    width: 20px;
+    height: 15px;
+    margin-top: 8px;
+}
+.done #downa{
+    display: none;
+}

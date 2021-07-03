@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+   
+</head>
+<body>
+    <div class="gallery">
+        <div id="header">
+            <h1>To Do List</h1>
+            <div class="clock">
+            </div>
+            <input type="search" name="search" id="search">
+        </div>
+        <div id="nav">
+            <div class="group1">
+                <img src="image/sunny-day.png" id="sunny">
+                <div id="menu1">오늘 할 일</div>
+            </div>
+            
+            <div class="group2">
+                <img src="image/star.png" id="star">
+                <div id="menu2">중요</div>
+            </div>
+            
+            <div class="group3">
+                <img src="image/trash.png" id="bin">
+                <div id="menu3">완료됨</div>
+            </div>
+            
+
+        </div>
+        <div id="main">
+            <h3>오늘 할 일</h3>
+            <div id="date"></div>
+            <div class="input">
+                
+                <input type="text" name="text" id="text" placeholder="작업 추가">
+                <input type="submit" value="추가" id="ckbtn">
+            </div>
+            <div class="add">
+                <!-- <input type="checkbox" name="btn" id="#ckbtn2"> -->
+                <div id="items"></div>
+            </div>
+            
+
+                <div class="done">
+                    <img src="image/right-arrow.png" id="righta">
+                    <img src="image/down-arrow.png" id="downa">
+                    <div id="finish">완료됨</div>
+                    <div class="finishitem"></div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
