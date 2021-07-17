@@ -88,7 +88,7 @@ body{
 #main{
     position: relative;
     left: 350px;
-    bottom: 750px;
+    bottom: 730px;
     display: flex;
     flex-direction: column;
 }
@@ -127,6 +127,7 @@ body{
     background-color: rgb(55, 130, 201);
     color: #fff;
     border: none;
+    font-family: 'Poor Story', cursive;
 }
 #main .add{
     display: flex;
@@ -158,4 +159,15 @@ body{
 }
 .done #downa{
     display: none;
+}
+
+
+
+/* 미디어 쿼리 */
+
+@media screen and (max-width:1160px){
+    #main{
+        position: relative;
+        bottom: 650px;
+    }
 }
